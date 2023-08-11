@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-color: rgb(90, 90, 220);
+            margin: 100px 400px 50px;
+            padding: 50px 68px 50px;
+            width: 355px;
+
+        }
+
+        .container {
+            margin: auto;
+            padding: 30px;
+            height: fit-content;
+            background-color: white;
+
+
+        }
+
+        h2 {
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 25px;
+
+        }
+
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 4px 100px;
+            margin: 9px 1px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            font-size: 18px;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            padding: 6px 147px;
+            margin: 9px 1px;
+            width: 10px;
+            text-align: center;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+
+
+        }
+
+        button:hover {
+            color: rgb(66, 150, 150);
+            opacity: 0.8;
+        }
+
+        #fa1 {
+            background-color: #343473;
+            color: white;
+            height: 20px;
+            width: 135px;
+            margin: -2px;
+            padding: 7px;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        #fa2 {
+            background-color: #769ce2;
+            color: white;
+            height: 20px;
+            width: 135px;
+            margin: -2px;
+            padding: 7px;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+        }
+        span{
+            display: inline-block;
+            width: 95px;
+            margin-top: 14px;
+            opacity: 0.6;
+        }
+        #or{
+            width: 2px 14px;
+            opacity: 0.7;
+            text-align: center;
+        }
+
+
+        a {
+            text-decoration: none;
+            font-size: 14px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        p {
+            text-align: center;
+            font-size: 14px;
+        }
+
+        b {
+            font-size: 10px;
+        }
+    
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <div class="in">
+                <i id="fa1" class="fa fa-facebook-square"> Facebook</i>
+                <i id="fa2" class="fa fa-twitter-square"> Twitter</i>
+                <span class="span1">
+                    <hr>
+                </span><span id="or">or</span>
+                <span class="span1">
+                    <hr>
+                </span>
+            </div>
+            <label for="username"><b>USERNAME</b></label>
+            <input type="text" class="username" id="UserName"><br>
+            <label for="psw"><b>PASSWORD</b></label>
+            <input type="password" class="password" id="Password"><br>
+            <a href="forgotpass.html">Forget Password?</a><br>
+            <button type="submit">Login</button>
+            <p>Don't have a Login? <a href="register.html">Register now</a></p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
